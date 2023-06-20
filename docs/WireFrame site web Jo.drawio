@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2023-06-19T12:19:06.474Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0ZyxbtczJFObIvz9863m" version="21.1.3" type="device">
+  <diagram name="Page-1" id="gzz6rWWBxv3AbeYdTSpB">
+    <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4l-anur0nRFZQR1H0ms0-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="105" width="500" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-2" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="285" width="540" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-3" value="Photo" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="105" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-4" value="Présentation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-5" value="CV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-6" value="projet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-7" value="contact" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-8" value="etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-10" value="projet" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-11" value="site cookbook" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="140" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-12" value="detail site&lt;br&gt;competance techno" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="140" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-13" value="Othello&lt;br&gt;(image)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="260" width="165" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-14" value="bot discord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="500" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-15" value="Developpeur Web Front-End Javascript" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-16" value="Regles du jeu&lt;br&gt;&lt;br&gt;Description des modes&lt;br&gt;&lt;br&gt;tech utilisés" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="260" width="230" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4l-anur0nRFZQR1H0ms0-17" value="Quelle utilisation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="240" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
