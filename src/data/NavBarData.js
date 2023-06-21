@@ -1,13 +1,13 @@
 export default [
   {
     id: 1,
-    slug: 'presentation',
-    name: 'Présentation',
+    slug: 'a-propos',
+    name: 'A propos',
   },
   {
     id: 2,
-    slug: 'mon-CV',
-    name: 'Mon CV',
+    slug: 'experiences',
+    name: 'Experiences',
   },
   {
     id: 3,

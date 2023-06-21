@@ -1,11 +1,13 @@
-import NavBarLeft from '../NavBarLeft/NavBarLeft';
 import './App.scss';
+import Header from './Header/Header';
+import Acceuil from './Acceuil/Acceuil';
+import ButtonLight from '../button/ButtonLight/ButtonLight';
 
 function App() {
   return (
-    <div>
-      {/* <button className="btn">Hello daisyUI</button> */}
-      <NavBarLeft />
+    <div className="app">
+      <Header />
+      <Acceuil />
     </div>
   );
 }
