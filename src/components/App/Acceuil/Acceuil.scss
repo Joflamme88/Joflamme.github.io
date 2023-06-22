@@ -32,12 +32,20 @@
     }
   }
 
-  &-box {
+  &-box-btn {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 34.5rem;
     height: 5rem;
+  }
+
+  &-icon {
+    position: absolute;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
   }
 }
