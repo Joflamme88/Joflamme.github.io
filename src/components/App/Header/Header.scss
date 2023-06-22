@@ -2,32 +2,85 @@
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 .header {
+  height: 100vh;
+  width: 300px;
+  padding: 15px 30px;
+  background-color: v.$color-sideBGColor;
+  overflow-y: auto;
   position: fixed;
-  top: 0;
   left: 0;
-  width: 100%;
-  padding: 2rem 9%;
-  background-color: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
+  top: 0;
+  bottom: 0;
+  transition: 0.4s;
+  z-index: 99;
 
-  &-logo {
-    font-size: 2.5rem;
-    color: v.$color-text;
-    font-weight: 600;
+  &-profile {
+    text-align: center;
+    margin: 10px auto;
+
+    & img {
+      width: 150px;
+      border-radius: 50%;
+      border: 10px solid v.$color-iconBGColor;
+      margin: auto;
+    }
+    & h1 {
+      color: white;
+      font-weight: 600;
+    }
+    &-social-icons a {
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 37px;
+      background-color: v.$color-iconBGColor;
+      color: white;
+      font-size: 22px;
+      margin: 1.5px;
+      transition: 0.4s;
+      padding-top: 2px;
+
+      &:hover {
+        background-color: v.$color-themeColor;
+      }
+    }
   }
 
-  &-navbar a {
-    font-size: 1.7rem;
-    color: v.$color-text;
-    font-weight: 500;
-    margin-left: 3.5rem;
-    transition: 0.3s;
+  &-navbar {
+    margin-top: 30px;
+
+    & ul li a {
+      display: inline-block;
+      padding: 7px 10px;
+      margin: 7px 0;
+      color: lightgray;
+      font-size: 15px;
+      letter-spacing: 0.6px;
+
+      &:hover {
+        color: v.$color-themeColor;
+      }
+
+      .iconNavBar {
+        margin-right: 10px;
+        font-size: 20px;
+        transition: 0.4s;
+      }
+    }
   }
 
-  &-navbar a:hover {
-    color: v.$color-main;
+  &-footer {
+    text-align: center;
+    background-color: v.$color-sideBGColor;
+    width: 300px;
+    color: lightgray;
+    font-size: 14px;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
   }
 }
