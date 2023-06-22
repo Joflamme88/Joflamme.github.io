@@ -1,3 +1,4 @@
+import { Icon } from '@iconify-icon/react';
 import './App.scss';
 import Header from './Header/Header';
 import Acceuil from './Acceuil/Acceuil';
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="app">
       <Header />
+      <Acceuil />
     </div>
   );
 }

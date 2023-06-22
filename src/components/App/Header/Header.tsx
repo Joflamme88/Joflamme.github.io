@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Icon } from '@iconify-icon/react';
+import { useState } from 'react';
 import { LinkType } from '../../../@types';
 import NavBarData from '../../../data/NavBarData';
 import logo from '../../../assets/JoPictureProfil_FlouCV.png';
@@ -7,6 +8,12 @@ import logo from '../../../assets/JoPictureProfil_FlouCV.png';
 import './Header.scss';
 
 function Header() {
+  const [menuHeader, setMenuHeader] = useState(true);
+
+  function handleMenu() {
+    setMenuHeader(!menuHeader);
+  }
+
   const navBar = NavBarData.map((link: LinkType) => (
     <li key={link.id}>
       <a href={`#${link.slug}`}>
@@ -17,29 +24,37 @@ function Header() {
   ));
 
   return (
-    <header className="header">
-      <div className="header-profile">
-        <img src={logo} alt="jonathan flamme" width="150px" />
-        <h1>J Flamme</h1>
-        <div className="header-profile-social-icons">
-          <a href="/">
-            <Icon className="iconHeader" icon="mdi:github" />
-          </a>
-          <a href="/">
-            <Icon className="iconHeader" icon="mdi:linkedin" />
-          </a>
+    <>
+      <header className={menuHeader ? 'header' : 'header active'}>
+        <div className="header-profile">
+          <img src={logo} alt="jonathan flamme" width="150px" />
+          <h1>J Flamme</h1>
+          <div className="header-profile-social-icons">
+            <a href="/">
+              <Icon className="iconHeader" icon="mdi:github" />
+            </a>
+            <a href="/">
+              <Icon className="iconHeader" icon="mdi:linkedin" />
+            </a>
+          </div>
         </div>
-      </div>
 
-      <nav className="header-navbar">
-        <ul>{navBar}</ul>
-      </nav>
+        <nav className="header-navbar">
+          <ul>{navBar}</ul>
+        </nav>
 
-      <div className="header-footer">
-        <p>&copy; Coryright 2023 </p>
-        <p>Designed By JoFlamme</p>
-      </div>
-    </header>
+        <div className={menuHeader ? 'header-footer' : 'header-footer active'}>
+          <p>&copy; Coryright 2023 - Joflamme</p>
+        </div>
+      </header>
+      <button type="button" className="MenuBtn" onClick={() => handleMenu()}>
+        {menuHeader ? (
+          <Icon icon="fe:bar" className="MenuBtn" />
+        ) : (
+          <Icon icon="ph:x-bold" className="MenuBtn" />
+        )}
+      </button>
+    </>
   );
 }
 

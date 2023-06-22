@@ -1,2 +1,25 @@
 @use '../../styles/variables' as v;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+#MenuBtn {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: v.$color-themeColor;
+  text-align: center;
+  line-height: 42px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+  padding-top: 8px;
+  padding-left: 8px;
+  font-size: 1.5rem;
+  display: none;
+  z-index: 999;
+}
+
+@media only screen and (max-width: 1050px) {
+}
