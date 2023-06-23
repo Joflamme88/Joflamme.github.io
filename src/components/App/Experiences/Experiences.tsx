@@ -1,92 +1,89 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { Icon } from '@iconify-icon/react';
-
 import './Experiences.scss';
 
 function Experiences() {
   return (
-    <section className="experience" id="experience">
-      <h2 className="heading">
-        My <span>Journey</span>
-      </h2>
-      <div className="experience-row">
-        <div className="experience-column">
-          <h3 className="experience-column-title">Education</h3>
+    <section className="exp">
+      <h1 className="exp-sub-heading">Mon Experience</h1>
+      <div className="exp-divider" />
+      <p className="exp-sub-para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iure
+        quisquam laudantium, non doloribus inventore dicta? Quisquam veritatis,
+        deserunt, at labore officia magnam nisi laborum necessitatibus id ex
+        exercitationem sunt!
+      </p>
+      <div className="exp-row">
+        {/* left Column */}
+        <div className="exp-cols">
+          <h2>Summury</h2>
+          <div className="my-info">
+            <h3>J FLAMME</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              officiis harum, quidem, quis fugiat iste animi rerum doloribus
+              laborum earum, ullam excepturi! Laboriosam quae, natus eius autem
+              repellat optio voluptatem!
+            </p>
+            <ul>
+              <li>Bois Colombes</li>
+              <li>06 20 89 62 63</li>
+              <li>Joflamme@hotmail.com</li>
+            </ul>
+          </div>
 
-          <div className="experience-box">
-            <div className="experience-contents">
-              <div className="experience-contents-content">
-                <div className="experience-year">
-                  <Icon
-                    href="#"
-                    className="experience-year-icon"
-                    icon="bxs:calendar"
-                  />
-                  2006 - 2008
-                </div>
-                <h3>BTS Systèmes Electroniques</h3>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Facere numquam vero libero eum nulla, quidem quas suscipit
-                  distinctio impedit recusandae, pariatur obcaecati accusamus
-                  maxime labore tenetur minus in dolore iusto.
-                </p>
-              </div>
-            </div>
-
-            <div className="experience-contents">
-              <div className="experience-contents-content">
-                <div className="year">
-                  <Icon href="#" className="icon" icon="bxs:calendar" />
-                  2008 - 2009
-                  <h3>DUT informatique</h3>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Facere numquam vero libero eum nulla, quidem quas suscipit
-                    distinctio impedit recusandae, pariatur obcaecati accusamus
-                    maxime labore tenetur minus in dolore iusto.
-                  </p>
-                </div>
-              </div>
-            </div>
+          <h2>Formation</h2>
+          <div className="my-education">
+            <h3>BTS Systeme Electronique</h3>
+            <span className="sp-box">2006 - 2008</span>
+            <p>Paul langevin</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
+              nesciunt ad tempore, odit aut illo eaque in! Atque, quasi
+              consequatur!
+            </p>
           </div>
         </div>
 
-        <div className="experience-column">
-          <h3 className="experience-column-title">Formation</h3>
+        {/* Right Column */}
+        <div className="exp-cols">
+          <h2>Experience</h2>
 
-          <div className="experience-box">
-            <div className="experience-contents">
-              <div className="experience-contents-content">
-                <div className="year">
-                  <Icon href="#" className="icon" icon="bxs:calendar" />
-                  2023
-                  <h3>BTS Systèmes Electroniques</h3>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Facere numquam vero libero eum nulla, quidem quas suscipit
-                    distinctio impedit recusandae, pariatur obcaecati accusamus
-                    maxime labore tenetur minus in dolore iusto.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="experience-contents">
-              <div className="experience-contents-content">
-                <div className="year">
-                  <Icon href="#" className="icon" icon="bxs:calendar" />
-                  2025
-                  <h3>DUT informatique</h3>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Facere numquam vero libero eum nulla, quidem quas suscipit
-                    distinctio impedit recusandae, pariatur obcaecati accusamus
-                    maxime labore tenetur minus in dolore iusto.
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div className="pro-exp">
+            <h3>Technicien Electronique</h3>
+            <span className="sp-box">2018 - 2022</span>
+            <p>Veoneer</p>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                quaerat! Deserunt, pariatur.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                quaerat! Deserunt, pariatur.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                quaerat! Deserunt, pariatur.
+              </li>
+            </ul>
+          </div>
+          <div className="pro-exp">
+            <h3>Technicien Electronique</h3>
+            <span className="sp-box">2018 - 2022</span>
+            <p>Veoneer</p>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                quaerat! Deserunt, pariatur.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                quaerat! Deserunt, pariatur.
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                quaerat! Deserunt, pariatur.
+              </li>
+            </ul>
           </div>
         </div>
       </div>

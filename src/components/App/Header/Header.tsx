@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Icon } from '@iconify-icon/react';
+import classNames from 'classnames';
 import { useState } from 'react';
 import { LinkType } from '../../../@types';
 import NavBarData from '../../../data/NavBarData';
@@ -25,7 +26,7 @@ function Header() {
 
   return (
     <>
-      <header className={menuHeader ? 'header' : 'header active'}>
+      <header className={classNames('header', { active: !menuHeader })}>
         <div className="header-profile">
           <img src={logo} alt="jonathan flamme" width="150px" />
           <h1>J Flamme</h1>
@@ -43,11 +44,16 @@ function Header() {
           <ul>{navBar}</ul>
         </nav>
 
-        <div className={menuHeader ? 'header-footer' : 'header-footer active'}>
+        <div className={classNames('header-footer', { active: !menuHeader })}>
           <p>&copy; Coryright 2023 - Joflamme</p>
         </div>
       </header>
-      <button type="button" className="MenuBtn" onClick={() => handleMenu()}>
+      <button
+        type="button"
+        className="MenuBtn"
+        title="Ouvrir le menu"
+        onClick={() => handleMenu()}
+      >
         {menuHeader ? (
           <Icon icon="fe:bar" className="MenuBtn" />
         ) : (
