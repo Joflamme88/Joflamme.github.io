@@ -39,7 +39,6 @@ function Header() {
             </a>
           </div>
         </div>
-
         <nav className="header-navbar">
           <ul>{navBar}</ul>
         </nav>
