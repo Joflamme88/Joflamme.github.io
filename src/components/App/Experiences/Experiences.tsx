@@ -10,7 +10,7 @@ function Experiences() {
       <div className="exp-row">
         {/* left Column */}
         <div className="exp-cols">
-          <h2>Summury</h2>
+          <h2>Résumé</h2>
           <div className="my-info">
             <h3>J FLAMME</h3>
             <p>
