@@ -3,7 +3,7 @@ import { Icon } from '@iconify-icon/react';
 import './MesProjets.scss';
 import othello from '../../../assets/othello.jpg';
 import cookBook from '../../../assets/cookBook.jpg';
-import botdiscord from '../../../assets/botdiscord.jpg';
+import botdiscord from '../../../assets/botDiscord.jpg';
 
 function MesProjets() {
   return (
