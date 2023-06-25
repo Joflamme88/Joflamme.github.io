@@ -2,11 +2,13 @@
 import { Icon } from '@iconify-icon/react';
 import { useState } from 'react';
 import classNames from 'classnames';
+import { Link } from 'react-router-dom';
 
-import NavBarData from '../../../data/NavBarData';
 import { LinkType } from '../../../@types';
+import NavBarData from '../../../data/NavBarData';
 import logo from '../../../assets/JoPictureProfil_FlouCV.png';
 import treant from '../../../assets/signature_treant.png';
+import cvflamme from '../../../assets/jonathan_flamme_CV.pdf';
 import './Header.scss';
 
 function Header() {
@@ -29,7 +31,9 @@ function Header() {
     <>
       <header className={classNames('header', { active: !menuHeader })}>
         <div className="header-profile">
-          <img src={logo} alt="jonathan flamme" width="150px" />
+          <Link to="/">
+            <img src={logo} alt="jonathan flamme" width="150px" />
+          </Link>
           <h1>J Flamme</h1>
           <div className="header-profile-social-icons">
             <a href="https://github.com/Joflamme88">
@@ -43,6 +47,12 @@ function Header() {
         <nav className="header-navbar">
           <ul>{navBar}</ul>
         </nav>
+
+        <Link to={cvflamme} target="_blank">
+          <button type="button" className="button-cv">
+            Télécharger le CV
+          </button>
+        </Link>
 
         <div className={classNames('header-footer', { active: !menuHeader })}>
           <p>Joflamme</p>

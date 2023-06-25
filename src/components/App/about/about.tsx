@@ -6,7 +6,7 @@ import './about.scss';
 function about() {
   return (
     <section className="about" id="a-propos">
-      <h1 className="about-sub-heading">About Me</h1>
+      <h1 className="about-sub-heading">A propos</h1>
       <div className="about-divider" />
       <p className="about-sub-para">
         Après 10 ans d&apos;expérience dans le domaine de l&apos;électronique,

@@ -181,7 +181,7 @@ function Experiences() {
           <div className="pro-exp">
             <h3>Technicien Electronique</h3>
             <div className="sp">
-              <span className="sp-box">201 - 2014</span>
+              <span className="sp-box">2011 - 2014</span>
               <span className="sp-box-city">AQLE</span> à Saint-Just-En-Chaussée
               (60)
               <ul>
