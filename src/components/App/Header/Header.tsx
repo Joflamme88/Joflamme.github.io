@@ -6,6 +6,7 @@ import classNames from 'classnames';
 import NavBarData from '../../../data/NavBarData';
 import { LinkType } from '../../../@types';
 import logo from '../../../assets/JoPictureProfil_FlouCV.png';
+import treant from '../../../assets/signature_treant.png';
 import './Header.scss';
 
 function Header() {
@@ -31,10 +32,10 @@ function Header() {
           <img src={logo} alt="jonathan flamme" width="150px" />
           <h1>J Flamme</h1>
           <div className="header-profile-social-icons">
-            <a href="/">
+            <a href="https://github.com/Joflamme88">
               <Icon className="iconHeader" icon="mdi:github" />
             </a>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/jonathan-flamme-5209b0153/">
               <Icon className="iconHeader" icon="mdi:linkedin" />
             </a>
           </div>
@@ -44,7 +45,12 @@ function Header() {
         </nav>
 
         <div className={classNames('header-footer', { active: !menuHeader })}>
-          <p>&copy; Coryright 2023 - Joflamme</p>
+          <p>Joflamme</p>
+          <img
+            id="signature_treant"
+            src={treant}
+            alt="Signature Joflamme treant"
+          />
         </div>
       </header>
       <button

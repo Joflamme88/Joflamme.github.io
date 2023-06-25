@@ -28,13 +28,6 @@
     margin-top: 15px;
   }
 
-  &-row {
-    margin-top: 50px;
-    display: flex;
-    gap: 20px;
-    width: 100%;
-  }
-
   &-left {
     min-width: 90%;
     background-color: white;
@@ -69,7 +62,9 @@
   padding: 8px;
   font-size: 30px;
 }
-
+.lien-mail {
+  cursor: pointer;
+}
 .icon:hover .iconContact {
   background-color: v.$color-themeColor;
   color: v.$color-bgColor;
@@ -83,43 +78,6 @@
 
 .info p {
   color: v.$color-textColor;
-}
-
-.contact-right {
-  flex-basis: 60%;
-  min-width: 40%;
-  background-color: white;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
-  border-radius: 30px;
-  padding: 30px;
-}
-
-.formContact input,
-.formContact textarea,
-.submitContact {
-  display: block;
-  width: 100%;
-  margin: 30px 0;
-  font-size: 15px;
-  font-weight: 500;
-  color: v.$color-textColor;
-  padding: 10px 20px;
-  border: 2px solid lightgray;
-  border-radius: 5px;
-  outline: none;
-  resize: none;
-}
-
-.formContact input:focus,
-.formContact textarea:focus {
-  border: 2px solid v.$color-themeColor;
-}
-.submitContact {
-  background-color: v.$color-themeColor;
-  color: v.$color-bgColor;
-  border: 2px solid v.$color-themeColor;
-  font-size: 17px;
-  font-weight: 400;
 }
 
 @media only screen and (max-width: 1280px) {

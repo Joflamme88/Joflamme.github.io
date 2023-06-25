@@ -73,17 +73,23 @@
   }
 
   &-footer {
-    text-align: center;
-    background-color: v.$color-sideBGColor;
-    width: 300px;
-    color: lightgray;
-    font-size: 14px;
-    padding: 15px;
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid v.$color-themeColor;
+    width: 270px;
+    color: lightgray;
+    font-size: 20px;
+    padding: 15px;
     bottom: 0;
     left: 0;
     transition: 0.4s;
+    margin-left: 15px;
   }
+}
+#signature_treant {
+  width: 25px;
 }
 
 .MenuBtn {
@@ -104,10 +110,6 @@
   font-size: 1.5rem;
   display: none;
   z-index: 999;
-}
-
-.active {
-  color: v.$color-themeColor;
 }
 
 @media only screen and (max-width: 1050px) {

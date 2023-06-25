@@ -87,7 +87,7 @@
           color: v.$color-themeColor;
           line-height: 62px;
           transition: 0.4s;
-          margin-top: 20px;
+          margin-top: 5px;
 
           &:hover {
             background-color: v.$color-sideBGColor;
@@ -101,12 +101,78 @@
         visibility: visible;
       }
     }
+
+    &-detail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      font-weight: 400;
+      padding: 15px 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+
+      & h4 {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+      &-title {
+        font-size: 15px;
+        font-weight: 600;
+      }
+      &-techno {
+        font-size: 14px;
+        margin-left: 15px;
+      }
+
+      & a {
+        width: 80%;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        background-color: v.$color-themeColor;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+        border-radius: 15px;
+        padding: 10px 15px;
+        color: white;
+      }
+
+      & a:hover {
+        background-color: #005f51;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .portfolio-row-item-info a {
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    line-height: 38px;
+    margin-top: 0;
+  }
+
+  .portfolio-row-item-info {
+    & h4,
+    p {
+      font-size: 15px;
+    }
   }
 }
 
 @media only screen and (max-width: 1050px) {
   .portfolio {
     margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .portfolio-row-item-info {
+    & h4,
+    p {
+      font-size: 10px;
+    }
   }
 }
 
@@ -118,6 +184,10 @@
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 15px;
     }
+  }
+
+  .portfolio-row-item {
+    font-size: 10px;
   }
 
   @media only screen and (max-width: 420px) {
