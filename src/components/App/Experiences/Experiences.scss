@@ -93,7 +93,7 @@
   border-left: 2px solid v.$color-themeColor;
   position: relative;
 
-  & span + p {
+  & p {
     color: v.$color-textColor;
     font-size: 15px;
     font-weight: 500;
@@ -128,17 +128,10 @@
 
   & p {
     color: v.$color-textColor;
-    font-size: 17px;
-    font-weight: 500;
-    font-style: italic;
-  }
-
-  & ul li {
-    margin: 10px 0;
-    margin-left: 20px;
-    color: v.$color-textColor;
     font-size: 15px;
     font-weight: 500;
+    font-style: italic;
+    margin-bottom: 10px;
   }
 }
 
@@ -154,16 +147,56 @@
   background-color: white;
 }
 
+.sp {
+  color: v.$color-textColor;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
 .sp-box {
-  padding: 4px 22px;
+  padding: 2px 15px;
   background-color: lightblue;
   color: v.$color-textColor;
   border-radius: 5px;
   font-size: 14px;
   font-weight: 600;
   font-style: italic;
-  margin: 15px 0;
+  margin: 15px 15px 0 0;
   display: inline-block;
+
+  &-city {
+    font-weight: 700;
+  }
+}
+
+.exp-oclock {
+  margin: 10px 0;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.detail-list {
+  list-style: outside;
+  margin-left: 35px;
+  margin-bottom: 5px;
+  font-style: normal;
+
+  &-sub {
+    list-style: circle;
+    margin-left: 55px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+  }
+}
+
+.first {
+  margin-top: 15px;
+}
+
+.iconExperience {
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 1050px) {

@@ -1,11 +1,11 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Icon } from '@iconify-icon/react';
-import classNames from 'classnames';
 import { useState } from 'react';
-import { LinkType } from '../../../@types';
-import NavBarData from '../../../data/NavBarData';
-import logo from '../../../assets/JoPictureProfil_FlouCV.png';
+import classNames from 'classnames';
 
+import NavBarData from '../../../data/NavBarData';
+import { LinkType } from '../../../@types';
+import logo from '../../../assets/JoPictureProfil_FlouCV.png';
 import './Header.scss';
 
 function Header() {

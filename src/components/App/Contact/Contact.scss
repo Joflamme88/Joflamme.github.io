@@ -36,18 +36,22 @@
   }
 
   &-left {
-    flex-basis: 40%;
-    min-width: 45%;
+    min-width: 90%;
     background-color: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
     border-radius: 30px;
     padding: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
     &-icon-box {
       display: flex;
       gap: 15px;
       align-items: center;
-      margin: 30px 0;
+      margin: 30px 30px;
     }
   }
 }
@@ -116,6 +120,16 @@
   border: 2px solid v.$color-themeColor;
   font-size: 17px;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 1280px) {
+  .contact-left {
+    flex-direction: column;
+
+    &-icon-box {
+      margin-top: 5px;
+    }
+  }
 }
 
 @media only screen and (max-width: 1050px) {

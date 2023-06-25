@@ -13,7 +13,7 @@ export default [
   },
   {
     id: 3,
-    slug: 'mes-projets',
+    slug: 'portfolio',
     name: 'Mes Projets',
     icon: 'zondicons:portfolio',
   },

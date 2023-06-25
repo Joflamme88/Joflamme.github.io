@@ -50,6 +50,7 @@
         font-size: 35px;
         letter-spacing: 0.5px;
         margin-top: -10px;
+        margin-bottom: 10px;
       }
       & p {
         font-style: italic;
@@ -57,16 +58,13 @@
 
       &-icon-col {
         display: flex;
-        margin-top: 20px;
-        gap: 40px;
+        margin-left: 30px;
+        gap: 30px;
 
         &-list ul li {
+          display: flex;
           list-style: none;
           margin: 15px 0;
-
-          & i {
-            color: v.$color-themeColor;
-          }
 
           & strong {
             color: v.$color-sideBGColor;
@@ -82,6 +80,21 @@
       }
     }
   }
+}
+
+.icon-arrow {
+  color: v.$color-themeColor;
+  font-size: 25px;
+  margin-right: 10px;
+  transform: rotate(90deg);
+}
+
+.soft-skill-title {
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-left: 30px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -118,34 +131,34 @@
           font-size: 14px;
           letter-spacing: 0px;
         }
-
-        &-icon-col {
-          flex-direction: column;
-          margin-top: 20px;
-          gap: 0px;
-
-          &-list ul li {
-            margin: 10px 0;
-
-            & i {
-              color: v.$color-themeColor;
-            }
-
-            & strong {
-              font-weight: 500;
-              margin-right: 0px;
-            }
-            & span {
-              font-weight: 400;
-              font-size: 13px;
-            }
-          }
-        }
       }
     }
   }
 }
+@media only screen and (max-width: 420px) {
+  .about-col-info-icon-col {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 0px;
 
+    &-list ul li {
+      margin: 10px 0;
+
+      & i {
+        color: v.$color-themeColor;
+      }
+
+      & strong {
+        font-weight: 500;
+        margin-right: 0px;
+      }
+      & span {
+        font-weight: 400;
+        font-size: 13px;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 400px) {
   .about-col-img img {
     width: 90%;
