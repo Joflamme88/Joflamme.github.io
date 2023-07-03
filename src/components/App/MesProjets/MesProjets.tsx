@@ -82,7 +82,7 @@ function MesProjets() {
         {/* Portfolio details botDiscord */}
         <div className="portfolio-row-detail">
           <h4>Bots Discord :</h4>
-          <p>Javascript Vanilla</p>
+          <p>TypeScript</p>
         </div>
       </div>
     </section>
