@@ -1,24 +1,8 @@
 @use '../../../styles/variables' as v;
+@use '../../../styles/mixin' as m;
 
 .portfolio {
-  margin-left: 300px;
-  background-color: v.$color-bgColor;
-  transition: 0.3s;
-  padding: 70px 30px;
-  background-color: white;
-
-  &-sub-heading {
-    color: black;
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  &-divider {
-    width: 80px;
-    height: 4px;
-    background-color: v.$color-themeColor;
-    border-radius: 3px;
-  }
+  @include m.titlePage;
 
   &-row {
     margin-top: 50px;

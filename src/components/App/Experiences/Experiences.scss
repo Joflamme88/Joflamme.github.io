@@ -1,32 +1,9 @@
 @use '../../../styles/variables' as v;
+@use '../../../styles/mixin' as m;
 
 .exp {
-  margin-left: 300px;
-  background-color: v.$color-bgColor;
-  transition: 0.3s;
-  padding: 70px 30px;
+  @include m.titlePage;
   background-color: white;
-
-  &-sub-heading {
-    color: black;
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  &-divider {
-    width: 80px;
-    height: 4px;
-    background-color: v.$color-themeColor;
-    border-radius: 3px;
-  }
-
-  &-sub-para {
-    color: v.$color-textColor;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    font-weight: 400;
-    margin-top: 15px;
-  }
 
   &-row {
     display: flex;
@@ -40,8 +17,8 @@
 
     & h2 {
       color: v.$color-sideBGColor;
-      font-weight: 600;
       font-size: 25px;
+      font-weight: 600;
       margin: 15px 0;
     }
     & h3 {
@@ -62,9 +39,9 @@
   & p {
     color: v.$color-textColor;
     font-size: 15px;
-    font-weight: 600;
     font-style: italic;
     margin: 10px 0;
+    font-weight: 600;
   }
 
   & ul li {
@@ -77,15 +54,7 @@
 }
 
 .my-info::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -8px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border: 2px solid v.$color-themeColor;
-  background-color: white;
+  @include m.experience-ball-left;
 }
 
 .my-education {
@@ -93,32 +62,14 @@
   border-left: 2px solid v.$color-themeColor;
   position: relative;
 
-  & p {
-    color: v.$color-textColor;
-    font-size: 15px;
-    font-weight: 500;
-    font-style: italic;
-    margin-bottom: 15px;
-  }
-
-  & span + p + p {
-    color: v.$color-textColor;
-    font-size: 15px;
-    font-weight: 500;
-    padding-bottom: 15px;
+  & p,
+  span + p + p {
+    @include m.experience-paragraphe;
   }
 }
 
 .my-education::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -8px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border: 2px solid v.$color-themeColor;
-  background-color: white;
+  @include m.experience-ball-left;
 }
 
 .pro-exp {
@@ -127,32 +78,16 @@
   position: relative;
 
   & p {
-    color: v.$color-textColor;
-    font-size: 15px;
-    font-weight: 500;
-    font-style: italic;
-    margin-bottom: 10px;
+    @include m.experience-paragraphe;
   }
 }
 
 .pro-exp::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -8px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border: 2px solid v.$color-themeColor;
-  background-color: white;
+  @include m.experience-ball-left;
 }
 
 .sp {
-  color: v.$color-textColor;
-  font-size: 15px;
-  font-weight: 500;
-  font-style: italic;
-  margin-bottom: 15px;
+  @include m.experience-paragraphe;
 }
 
 .sp-box {

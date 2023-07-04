@@ -1,31 +1,8 @@
 @use '../../../styles/variables' as v;
+@use '../../../styles/mixin' as m;
 
 .about {
-  margin-left: 300px;
-  background-color: v.$color-bgColor;
-  transition: 0.3s;
-  padding: 70px 30px;
-
-  &-sub-heading {
-    color: black;
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
-
-  &-divider {
-    width: 80px;
-    height: 4px;
-    background-color: v.$color-themeColor;
-    border-radius: 3px;
-  }
-
-  &-sub-para {
-    color: v.$color-textColor;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    font-weight: 400;
-    margin-top: 15px;
-  }
+  @include m.titlePage;
 
   &-col {
     display: flex;
