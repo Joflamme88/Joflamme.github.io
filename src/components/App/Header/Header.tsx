@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 
 import { LinkType } from '../../../@types';
-import NavBarData from '../../../data/NavBarData';
+import NavBarData from '../../../data/NavBarData.json';
 import logo from '../../../assets/JoPictureProfil_FlouCV.png';
 import treant from '../../../assets/signature_treant.png';
 import cvflamme from '../../../assets/jonathan_flamme_CV.pdf';
