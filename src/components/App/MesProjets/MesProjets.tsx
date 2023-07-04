@@ -1,6 +1,6 @@
 import './MesProjets.scss';
 import Projet from './Projet/Projet';
-import projets from '../../../data/ProjectsData.json';
+import projets from '../../../data/ProjectsData';
 
 function MesProjets() {
   const projetsCards = projets.map((projet) => (
