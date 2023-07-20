@@ -68,7 +68,7 @@ function about() {
               </ul>
             </div>
           </div>
-          <h4 className="soft-skill-title">Stage non rémunéré :</h4>
+          <h4 className="soft-skill-title">Stage :</h4>
           <div className="about-col-info-icon-col">
             <div className="about-col-info-icon-col-list">
               <ul>

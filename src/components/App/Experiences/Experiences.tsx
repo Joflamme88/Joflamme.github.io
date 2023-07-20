@@ -13,11 +13,7 @@ function Experiences() {
           <h2>Résumé</h2>
           <div className="my-info">
             <h3>J FLAMME</h3>
-            <p>
-              Je suis actuellement à la recherche d&apos;un stage non rémunéré
-              en Ile-de-France / Paris à partir du 04 Août 2023 d&apos;une durée
-              entre 3 et 6 mois
-            </p>
+
             <ul>
               <li>
                 <Icon className="iconExperience" icon="mdi:location" />
