@@ -56,5 +56,21 @@
     "box_description": [],
     "link_box": "https://github.com/Joflamme88/BotDiscord_EditionLimit",
     "button": false
+  },
+  {
+    "id": 4,
+    "name": "FoodFlex :",
+    "image": "https://github.com/Joflamme88/Picture/blob/main/logo.png",
+    "description": [
+      {
+        "description": "React - Redux - TypeScript"
+      }
+    ],
+    "box_title": "Foodflex",
+    "box_description": [
+      "Gestion de recette de cuisine sur un planning à la semaine"
+    ],
+    "link_box": "https://github.com/Joflamme88/projet-foodflex-back",
+    "button": false
   }
 ]

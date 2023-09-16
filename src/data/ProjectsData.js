@@ -1,6 +1,7 @@
 import othello from '../assets/othello.jpg';
 import cookBook from '../assets/cookBook.jpg';
 import botDiscord from '../assets/botDiscord.jpg';
+import foodFlex from '../assets/foodFlex.png';
 
 const ProjetsData = [
   {
@@ -59,6 +60,40 @@ const ProjetsData = [
     box_title: 'Bots Discords',
     box_description: [],
     link_box: 'https://github.com/Joflamme88/BotDiscord_EditionLimit',
+    button: false,
+  },
+  {
+    id: 4,
+    name: 'FoodFlex - Front :',
+    image: `${foodFlex}`,
+    description: [
+      {
+        description: 'React - Redux - TypeScript',
+      },
+    ],
+    box_title: 'Foodflex - Front',
+    box_description: [
+      'Gestion de recette de cuisine sur un planning à la semaine',
+    ],
+    link_box: 'https://github.com/Joflamme88/projet-foodflex-front',
+    button: true,
+    button_title: 'Lien du site',
+    button_link: 'https://foodflex.me/',
+  },
+  {
+    id: 5,
+    name: 'FoodFlex - Back :',
+    image: `${foodFlex}`,
+    description: [
+      {
+        description: 'NodeJs - Espress - Sequelize',
+      },
+    ],
+    box_title: 'Foodflex - Back',
+    box_description: [
+      'Gestion de recette de cuisine sur un planning à la semaine',
+    ],
+    link_box: 'https://github.com/Joflamme88/projet-foodflex-back',
     button: false,
   },
 ];
