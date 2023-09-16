@@ -8,7 +8,7 @@ function Acceuil() {
           Jonathan Flamme<span>.</span>
         </h1>
         <p>
-          <span className="auto-input"> Developpeur Full-Stack Javascript</span>
+          <span className="auto-input"> Developpeur Web Javascript</span>
         </p>
       </div>
     </section>

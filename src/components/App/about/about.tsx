@@ -21,7 +21,7 @@ function about() {
         </div>
 
         <div className="about-col-info">
-          <h2>Developpeur Full-Stack Javascript</h2>
+          <h2>Developpeur Web Javascript</h2>
           <p>
             Je suis actuellement à la recherche d&apos;un stage non rémunéré sur
             Paris à partir du 04 Août 2023. Ce stage durera entre 3 et 6 mois.
