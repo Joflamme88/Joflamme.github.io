@@ -22,14 +22,7 @@ function about() {
 
         <div className="about-col-info">
           <h2>Developpeur Web Javascript</h2>
-          <p>
-            Je suis actuellement à la recherche d&apos;un stage non rémunéré sur
-            Paris à partir du 04 Août 2023. Ce stage durera entre 3 et 6 mois.
-          </p>
-          <p>
-            Etant très motivé, ce stage me permettra de développer davantage mes
-            compétence.
-          </p>
+
           {/* left Side List */}
           <h4 className="soft-skill-title">Soft Skill :</h4>
           <div className="about-col-info-icon-col">
@@ -68,27 +61,23 @@ function about() {
               </ul>
             </div>
           </div>
-          <h4 className="soft-skill-title">Stage :</h4>
+          <h4 className="soft-skill-title">HardSkil :</h4>
           <div className="about-col-info-icon-col">
             <div className="about-col-info-icon-col-list">
               <ul>
                 <li>
-                  <strong>
-                    <Icon className="icon-arrow" icon="fe:arrow-up" />
-                    Date : <span> A partir du 04 Aout 2023 </span>
-                  </strong>
+                  <Icon className="icon-arrow" icon="fe:arrow-up" />
+                  <strong>Front-End :</strong>
+                  <p>Angular - Typescript</p>
+                  <p>/</p>
+                  <p>React - Typescript - Redux</p>
                 </li>
                 <li>
-                  <strong>
-                    <Icon className="icon-arrow" icon="fe:arrow-up" />
-                    Durée : <span>Entre 3 et 6 mois </span>
-                  </strong>
-                </li>
-                <li>
-                  <strong>
-                    <Icon className="icon-arrow" icon="fe:arrow-up" />
-                    Lieu : <span>En IDF ou sur Paris (75)</span>
-                  </strong>
+                  <Icon className="icon-arrow" icon="fe:arrow-up" />
+                  <strong> Back-End :</strong>
+                  <p>NodeJs - Nest - TypeOrm</p>
+                  <p>/</p>
+                  <p>NodeJs - Express - Sequelize</p>
                 </li>
               </ul>
             </div>
