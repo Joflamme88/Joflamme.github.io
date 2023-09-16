@@ -80,23 +80,51 @@ function Experiences() {
         {/* Right Column */}
         <div className="exp-cols">
           <h2>Experience</h2>
-
+          <div className="pro-exp">
+            <h3>Stage Developpeur FullStack</h3>
+            {/* Aout 2023 */}
+            <div className="sp">
+              <span className="sp-box">de aout 2023 à maintenant</span>
+              <span className="sp-box-city">AGS</span> à distance
+              <h4 className="exp-oclock">
+                Application de gestions de secours :
+              </h4>
+              <ul>
+                <ul>
+                  <li className="detail-list">Front-End :</li>
+                  <li className="detail-list-sub">Angular - TypeScript</li>
+                  <li className="detail-list">Back-End :</li>
+                  <li className="detail-list-sub">
+                    NodeJs - Nest - TypeOrm - TypeScript
+                  </li>
+                </ul>
+              </ul>
+            </div>
+          </div>
           <div className="pro-exp">
             <h3>Developpeur FullStack Javascript</h3>
+            {/* Juillet 2023 */}
             <div className="sp">
               <span className="sp-box">Juillet 2023</span>
               <span className="sp-box-city">O&apos;Clock</span> à Paris (75)
               <h4 className="exp-oclock">Projet de fin de formation :</h4>
               <ul>
-                <li className="detail-list">
-                  Création d&apos;une application web et web mobile Javascript :
-                </li>
-                <li className="detail-list-sub">
-                  De sa conception à sa réalisation en méthode agile
-                </li>
-                <li className="detail-list-sub">
-                  Equipe de 5 personnes - 4 semaines intensives
-                </li>
+                <ul>
+                  <li className="detail-list">
+                    Création d&apos;une application web Front et Back TypeScript
+                    :
+                  </li>
+                  <li className="detail-list-sub">
+                    Gestion de recettes de cuisines sur un planning à
+                    l&apos;année + gestion des favoris
+                  </li>
+                  <li className="detail-list-sub">
+                    Front-End : React, Redux, Tailwind
+                  </li>
+                  <li className="detail-list-sub">
+                    Back-End : NodeJs, Express, Sequelize, PostgreSQL, Jest
+                  </li>
+                </ul>
               </ul>
               <h4 className="exp-oclock">Projets Personnels :</h4>
               <ul>
@@ -105,8 +133,10 @@ function Experiences() {
                 </li>
                 <li className="detail-list-sub">Livre de recette numérique</li>
                 <li className="detail-list-sub">
-                  Techno : React, Tailwind, NodeJs, Express, Sequelize,
-                  PostgreSQL, Jest
+                  Front-End : React, Redux, Tailwind
+                </li>
+                <li className="detail-list-sub">
+                  Back-End : NodeJs, Express, Sequelize, PostgreSQL, Jest
                 </li>
               </ul>
               <ul>
