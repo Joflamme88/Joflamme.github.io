@@ -11,8 +11,8 @@ function about() {
       <p className="about-sub-para">
         Après 10 ans d&apos;expérience dans le domaine de l&apos;électronique,
         ma passion pour la programmation m&apos;a conduit à me reconvertir en
-        tant que développeur FullStack JavaScript. Je suis motivé à l&apos;idée
-        de relever de nouveaux défis et de m&apos;épanouir dans ce secteur en
+        tant que développeur Front-End Angular. Je suis motivé à l&apos;idée de
+        relever de nouveaux défis et de m&apos;épanouir dans ce secteur en
         constante évolution.
       </p>
       <div className="about-col">
@@ -21,8 +21,35 @@ function about() {
         </div>
 
         <div className="about-col-info">
-          <h2>Developpeur Web Javascript</h2>
+          <h2>Developpeur Front-End Angular</h2>
 
+          <h4 className="soft-skill-title">Compétences :</h4>
+          <div className="about-col-info-icon-col">
+            <div className="about-col-info-icon-col-list">
+              <ul>
+                <li>
+                  <Icon className="icon-arrow" icon="fe:arrow-up" />
+                  <strong>TypeScript</strong>
+                </li>
+                <li>
+                  <Icon className="icon-arrow" icon="fe:arrow-up" />
+                  <strong>Angular</strong>
+                </li>
+              </ul>
+            </div>
+            <div className="about-col-info-icon-col-list">
+              <ul>
+                <li>
+                  <Icon className="icon-arrow" icon="fe:arrow-up" />
+                  <strong>Docker</strong>
+                </li>
+                <li>
+                  <Icon className="icon-arrow" icon="fe:arrow-up" />
+                  <strong>Git / GitHub</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
           {/* left Side List */}
           <h4 className="soft-skill-title">Soft Skill :</h4>
           <div className="about-col-info-icon-col">
@@ -38,7 +65,7 @@ function about() {
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Travail en équipe</strong>
+                  <strong>Communication</strong>
                 </li>
               </ul>
             </div>
@@ -52,32 +79,11 @@ function about() {
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Organisation</strong>
+                  <strong>Organisé</strong>
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
                   <strong>Adaptabilité</strong>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <h4 className="soft-skill-title">HardSkil :</h4>
-          <div className="about-col-info-icon-col">
-            <div className="about-col-info-icon-col-list">
-              <ul>
-                <li>
-                  <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Front-End :</strong>
-                  <p>Angular - Typescript</p>
-                  <p>/</p>
-                  <p>React - Typescript - Redux</p>
-                </li>
-                <li>
-                  <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong> Back-End :</strong>
-                  <p>NodeJs - Nest - TypeOrm</p>
-                  <p>/</p>
-                  <p>NodeJs - Express - Sequelize</p>
                 </li>
               </ul>
             </div>

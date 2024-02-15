@@ -84,72 +84,59 @@ function Experiences() {
             <h3>Stage Developpeur FullStack</h3>
             {/* Aout 2023 */}
             <div className="sp">
-              <span className="sp-box">de aout 2023 à maintenant</span>
+              <span className="sp-box">de aout 2023 à Février 2024</span>
               <span className="sp-box-city">AGS</span> à distance
               <h4 className="exp-oclock">
-                Application de gestions de secours :
+                Assistance de gestions des secours :
               </h4>
               <ul>
                 <ul>
-                  <li className="detail-list">Front-End :</li>
-                  <li className="detail-list-sub">Angular - TypeScript</li>
-                  <li className="detail-list">Back-End :</li>
+                  <li className="detail-list">Refonte du Back Office</li>
+                  <li className="detail-list">
+                    Implémentation d&apos;une fonction gérant le planning des
+                    RH:
+                  </li>
                   <li className="detail-list-sub">
-                    NodeJs - Nest - TypeOrm - TypeScript
+                    Mise en place d&apos;une procédure de validation des
+                    compétences
+                  </li>
+                  <li className="detail-list-sub">Gestion des vacations</li>
+
+                  <li className="detail-list">
+                    Analyse et spécification fonctionnelle
+                  </li>
+                  <li className="detail-list">Validation fonctionnelle</li>
+                  <li className="detail-list">Correction de bugs</li>
+                  <li className="detail-list">Techno:</li>
+                  <li className="detail-list-sub">
+                    TypeScript, AngularJs, NestJs, Docker, Nx Monorepo, Git
                   </li>
                 </ul>
               </ul>
             </div>
           </div>
           <div className="pro-exp">
-            <h3>Developpeur FullStack Javascript</h3>
+            <h3>Développeur FullStack Javascript</h3>
             {/* Juillet 2023 */}
             <div className="sp">
               <span className="sp-box">Juillet 2023</span>
-              <span className="sp-box-city">O&apos;Clock</span> à Paris (75)
+              <span className="sp-box-city">O&apos;Clock</span> - A distance
               <h4 className="exp-oclock">Projet de fin de formation :</h4>
               <ul>
                 <ul>
                   <li className="detail-list">
-                    Création d&apos;une application web Front et Back TypeScript
-                    :
+                    Développement d&apos;une application web et web mobile :
                   </li>
                   <li className="detail-list-sub">
                     Gestion de recettes de cuisines sur un planning à
                     l&apos;année + gestion des favoris
                   </li>
+                  <li className="detail-list">Techno :</li>
                   <li className="detail-list-sub">
-                    Front-End : React, Redux, Tailwind
-                  </li>
-                  <li className="detail-list-sub">
-                    Back-End : NodeJs, Express, Sequelize, PostgreSQL, Jest
+                    TypeScript, React, Tailwind, Express, Sequelize, PostgreSQL,
+                    Jest
                   </li>
                 </ul>
-              </ul>
-              <h4 className="exp-oclock">Projets Personnels :</h4>
-              <ul>
-                <li className="detail-list">
-                  Création d&apos;une application web et web mobile Javascript :
-                </li>
-                <li className="detail-list-sub">Livre de recette numérique</li>
-                <li className="detail-list-sub">
-                  Front-End : React, Redux, Tailwind
-                </li>
-                <li className="detail-list-sub">
-                  Back-End : NodeJs, Express, Sequelize, PostgreSQL, Jest
-                </li>
-              </ul>
-              <ul>
-                <li className="detail-list">
-                  Création du jeu de plateau Othello en Javascript Vanilla :
-                </li>
-                <li className="detail-list-sub">
-                  Différents modes : Contre Joueur, Contre Ordinateur, Mode
-                  facile
-                </li>
-              </ul>
-              <ul>
-                <li className="detail-list">Création de bots discords</li>
               </ul>
             </div>
           </div>
@@ -164,55 +151,26 @@ function Experiences() {
               <span className="sp-box">2018 - 2022</span>
               <span className="sp-box-city">Veoneer</span> à Cergy (95)
             </p>
+            <p>
+              <span className="sp-box">2015 - 2017</span>
+              <span className="sp-box-city">Thales</span> à Méru (60)
+            </p>
+            <p>
+              {' '}
+              <span className="sp-box">2011 - 2014</span>
+              <span className="sp-box-city">AQLE</span> à Saint-Just-En-Chaussée
+              (60)
+            </p>
             <div className="sp">
               <ul>
                 <li className="detail-list first">
-                  Test fonctionnel et rapport de test en collaboration avec des
-                  collègues développeur couche basse en langage C.
+                  Travail en collaboration avec les équipes informatiques
                 </li>
                 <li className="detail-list">
                   Rédaction de spécifications de faisceaux CEM à partir du CDC
                 </li>
                 <li className="detail-list">
                   Rédaction de procédures de tests
-                </li>
-                <li className="detail-list">
-                  Qualification thermique de composants pour ECU de contrôle
-                  moteur
-                </li>
-                <li className="detail-list">
-                  Expertise sur calculateurs défaillants
-                </li>
-                <li className="detail-list">
-                  Assemblage de cartes électroniques
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="pro-exp">
-            <h3>Technicien Electronique</h3>
-            <div className="sp">
-              <span className="sp-box">2015 - 2017</span>
-              <span className="sp-box-city">Thales</span> à Méru (60)
-              <ul>
-                <li className="detail-list first">
-                  Essais statiques et dynamiques d&apos;alternateurs et
-                  régulateurs d&apos;avions
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="pro-exp">
-            <h3>Technicien Electronique</h3>
-            <div className="sp">
-              <span className="sp-box">2011 - 2014</span>
-              <span className="sp-box-city">AQLE</span> à Saint-Just-En-Chaussée
-              (60)
-              <ul>
-                <li className="detail-list first">
-                  Tests fonctionnels et rapports de tests
                 </li>
                 <li className="detail-list">
                   Analyse et réparation de cartes électroniques
