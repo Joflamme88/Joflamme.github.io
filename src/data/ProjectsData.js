@@ -25,7 +25,7 @@ const ProjetsData = [
       'Gestion de ses propres recettes de cuisine',
       'Création de menu personalisé (A venir)',
     ],
-    link_box: 'https://github.com/Joflamme88/CookBook',
+    link_box: 'https://github.com/JonathanFlamme/CookBook',
     button: false,
   },
   {
@@ -48,10 +48,10 @@ const ProjetsData = [
       'Joueur contre ordinateur',
       'Mode facile',
     ],
-    link_box: 'https://github.com/Joflamme88/Joflamme-othello.github.io',
+    link_box: 'https://github.com/JonathanFlamme/Joflamme-othello.github.io',
     button: true,
     button_title: 'Cliquer pour jouer',
-    button_link: 'https://joflamme88.github.io/Joflamme-othello.github.io/',
+    button_link: 'https://JonathanFlamme.github.io/Joflamme-othello.github.io/',
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ const ProjetsData = [
     ],
     box_title: 'Bots Discords',
     box_description: [],
-    link_box: 'https://github.com/Joflamme88/BotDiscord_EditionLimit',
+    link_box: 'https://github.com/JonathanFlamme/Jobot_EditionLimit',
     button: false,
   },
   {
@@ -86,7 +86,7 @@ const ProjetsData = [
       'Gestion de recettes de cuisine sur un planning à la semaine',
       'Gestion de recettes favories',
     ],
-    link_box: 'https://github.com/Joflamme88/projet-foodflex-front',
+    link_box: 'https://github.com/JonathanFlamme/projet-foodflex-front',
     button: false,
     // button_title: 'Lien du site',
     // button_link: 'https://foodflex.me/',
@@ -104,7 +104,7 @@ const ProjetsData = [
   //   box_description: [
   //     'Gestion de recette de cuisine sur un planning à la semaine',
   //   ],
-  //   link_box: 'https://github.com/Joflamme88/projet-foodflex-back',
+  //   link_box: 'https://github.com/JonathanFlamme/projet-foodflex-back',
   //   button: false,
   // },
 ];

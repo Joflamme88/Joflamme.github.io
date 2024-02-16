@@ -36,7 +36,7 @@ function Header() {
           </Link>
           <h1>J Flamme</h1>
           <div className="header-profile-social-icons">
-            <a href="https://github.com/Joflamme88">
+            <a href="https://github.com/JonathanFlamme">
               <Icon className="iconHeader" icon="mdi:github" />
             </a>
             <a href="https://www.linkedin.com/in/jonathan-flamme-5209b0153/">
