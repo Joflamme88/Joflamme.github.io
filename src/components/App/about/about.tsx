@@ -21,7 +21,7 @@ function about() {
         </div>
 
         <div className="about-col-info">
-          <h2>Developpeur Front-End Angular</h2>
+          <h2>Developpeur Front-End</h2>
 
           <h4 className="soft-skill-title">Compétences :</h4>
           <div className="about-col-info-icon-col">
