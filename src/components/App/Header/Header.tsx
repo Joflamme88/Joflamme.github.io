@@ -8,7 +8,7 @@ import { LinkType } from '../../../@types';
 import NavBarData from '../../../data/NavBarData.json';
 import logo from '../../../assets/JoPictureProfil_FlouCV.png';
 import treant from '../../../assets/signature_treant.png';
-import cvflamme from '../../../assets/Jonathan_Flamme_developpeur_front-end_cv.pdf';
+import cvflamme from '../../../assets/Jonathan_Flamme_cv.pdf';
 import './Header.scss';
 
 function Header() {
