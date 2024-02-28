@@ -91,21 +91,37 @@ function Experiences() {
               </h4>
               <ul>
                 <ul>
-                  <li className="detail-list">Refonte du Back Office</li>
+                  <li className="detail-list">Amélioration du Back Office</li>
                   <li className="detail-list">
-                    Implémentation d&apos;une fonction gérant le planning des
-                    RH:
+                    Développement d&apos;un outil gérant le planning des RH :
                   </li>
                   <li className="detail-list-sub">
-                    Mise en place d&apos;une procédure de validation des
-                    compétences
+                    Validation des compétences métier des RH par
+                    l&apos;administrateur, avec la possibilité de lier un
+                    diplôme à chaque compétence.
                   </li>
-                  <li className="detail-list-sub">Gestion des vacations</li>
+                  <li className="detail-list-sub">
+                    Création de vacations pendant un événement, en fonction des
+                    métiers requis, avec envoi automatique de mails/SMS.
+                  </li>
+                  <li className="detail-list-sub">
+                    Enregistrement des membres sur les vacations en fonction de
+                    leurs compétences, avec validation par
+                    l&apos;administrateur.
+                  </li>
+                  <li className="detail-list-sub">
+                    Suivi des inscriptions des membres.
+                  </li>
+                  <li className="detail-list-sub">
+                    De plus, améliorations des parties &quot;profil&quot; et
+                    &quot;Manager&quot; pour intégrer cet outil.
+                  </li>
 
                   <li className="detail-list">
                     Analyse et spécification fonctionnelle
                   </li>
                   <li className="detail-list">Validation fonctionnelle</li>
+                  <li className="detail-list">Amélioration UX</li>
                   <li className="detail-list">Correction de bugs</li>
                   <li className="detail-list">Techno:</li>
                   <li className="detail-list-sub">
