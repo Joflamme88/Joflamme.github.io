@@ -96,18 +96,14 @@ function Experiences() {
                     Développement d&apos;un outil gérant le planning des RH :
                   </li>
                   <li className="detail-list-sub">
-                    Validation des compétences métier des RH par
-                    l&apos;administrateur, avec la possibilité de lier un
-                    diplôme à chaque compétence.
+                    Validation des compétences métiers des RH
+                  </li>
+                  <li className="detail-list-sub">Création de vacations</li>
+                  <li className="detail-list-sub">
+                    Notification par mails/SMS
                   </li>
                   <li className="detail-list-sub">
-                    Création de vacations pendant un événement, en fonction des
-                    métiers requis, avec envoi automatique de mails/SMS.
-                  </li>
-                  <li className="detail-list-sub">
-                    Enregistrement des membres sur les vacations en fonction de
-                    leurs compétences, avec validation par
-                    l&apos;administrateur.
+                    Inscription des membres sur les vacations
                   </li>
                   <li className="detail-list-sub">
                     Suivi des inscriptions des membres.
@@ -125,7 +121,11 @@ function Experiences() {
                   <li className="detail-list">Correction de bugs</li>
                   <li className="detail-list">Techno:</li>
                   <li className="detail-list-sub">
-                    TypeScript, AngularJs, NestJs, Docker, Nx Monorepo, Git
+                    TypeScript, AngularJs, NestJs, Docker, Nx Monorepo, GitHub
+                  </li>
+                  <li className="detail-list-sub">
+                    Git: commit, push, pull, rebase, rebase interactif,
+                    cherry-pick
                   </li>
                 </ul>
               </ul>
