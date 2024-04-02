@@ -2,6 +2,7 @@ import othello from '../assets/othello.jpg';
 import yummyCook from '../assets/yummycook.jpg';
 import botDiscord from '../assets/botDiscord.jpg';
 import foodFlex from '../assets/foodFlex.png';
+import agsLogo from '../assets/ags_logo.jpg';
 
 const ProjetsData = [
   {
@@ -33,6 +34,41 @@ const ProjetsData = [
   },
   {
     id: 2,
+    name: 'Assistance à la gestion des secours :',
+    image: `${agsLogo}`,
+    description: [
+      {
+        description: 'Validation des compétences métier des RH par le manager,',
+      },
+      {
+        description:
+          'Création de vacations durant un événement par le manager,',
+      },
+      {
+        description: 'Notification par mails/SMS,',
+      },
+      {
+        description: 'Inscription des membres sur les vacations,',
+      },
+      {
+        description: 'Suivi des inscriptions des membres,',
+      },
+      {
+        title: 'Techno : ( FullStack ) ',
+        description:
+          'Javascript ,TypeScript, Angular, NestJs, Docker, Nx Monorepo',
+      },
+    ],
+    box_title: 'Assistance à la gestion des secours',
+    box_description: [
+      'Validation des compétences métier des RH par le manager',
+      'Gestion du planning du personnel de secours',
+    ],
+    link_box: '',
+    button: false,
+  },
+  {
+    id: 3,
     name: 'Othello :',
     image: `${othello}`,
     description: [
@@ -57,7 +93,7 @@ const ProjetsData = [
     button_link: 'https://JonathanFlamme.github.io/Joflamme-othello.github.io/',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Bots Discord :',
     image: `${botDiscord}`,
     description: [
@@ -71,7 +107,7 @@ const ProjetsData = [
     button: false,
   },
   {
-    id: 4,
+    id: 5,
     name: 'FoodFlex :',
     image: `${foodFlex}`,
     description: [

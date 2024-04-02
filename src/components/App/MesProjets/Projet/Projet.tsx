@@ -26,7 +26,7 @@ function Projet({ projet }: ProjetProp) {
     <div className="portfolio-card">
       <div className="portfolio-card-box">
         <div className="portfolio-card-box-img">
-          <img src={projet.image} alt="projet othello" />
+          <img src={projet.image} alt="projet" />
         </div>
         <div className="portfolio-card-box-info">
           <h4>{projet.box_title}</h4>
