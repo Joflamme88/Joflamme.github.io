@@ -1,32 +1,35 @@
 import othello from '../assets/othello.jpg';
-import cookBook from '../assets/cookBook.jpg';
+import yummyCook from '../assets/yummycook.jpg';
 import botDiscord from '../assets/botDiscord.jpg';
 import foodFlex from '../assets/foodFlex.png';
 
 const ProjetsData = [
   {
     id: 1,
-    name: 'Cookbook :',
-    image: `${cookBook}`,
+    name: 'Yummy Cook :',
+    image: `${yummyCook}`,
     description: [
       {
-        description: 'Gestion de ses propres recettes de cuisine',
+        description: 'Partage de recettes entre cuisiniers amateurs',
       },
       {
         description: 'Création de menu personalisé (A venir)',
       },
       {
-        title: 'Techno : ',
-        description: 'TypeScript, Angular, NestJs, Docker, Nx Monorepo',
+        title: 'Techno : ( FullStack ) ',
+        description:
+          'Javascript ,TypeScript, Angular, NestJs, Docker, Nx Monorepo',
       },
     ],
-    box_title: 'CookBook',
+    box_title: 'Yummy Cook',
     box_description: [
-      'Gestion de ses propres recettes de cuisine',
+      'Partage de recettes entre cuisiniers amateurs',
       'Création de menu personalisé (A venir)',
     ],
     link_box: 'https://github.com/JonathanFlamme/CookBook',
-    button: false,
+    button: true,
+    button_title: 'Lien du site',
+    button_link: 'https://yummy-cook-dev.netlify.app',
   },
   {
     id: 2,
@@ -87,9 +90,9 @@ const ProjetsData = [
       'Gestion de recettes favories',
     ],
     link_box: 'https://github.com/JonathanFlamme/projet-foodflex-front',
-    button: false,
-    // button_title: 'Lien du site',
-    // button_link: 'https://foodflex.me/',
+    button: true,
+    button_title: 'Lien du site',
+    button_link: 'https://foodflex.me/',
   },
   // {
   //   id: 5,

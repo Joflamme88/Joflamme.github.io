@@ -6,12 +6,6 @@
     "icon": "mdi:user"
   },
   {
-    "id": 2,
-    "slug": "experiences",
-    "name": "Experiences",
-    "icon": "fa-solid:university"
-  },
-  {
     "id": 3,
     "slug": "portfolio",
     "name": "Mes Projets",

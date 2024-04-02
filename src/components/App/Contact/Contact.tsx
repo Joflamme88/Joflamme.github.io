@@ -40,6 +40,30 @@ function Contact() {
             <p>Bois Colombes (92)</p>
           </div>
         </div>
+
+        <div className="contact-left-icon-box">
+          <a
+            href="https://www.linkedin.com/in/jonathan-flamme-5209b0153"
+            className="icon"
+          >
+            <Icon className="iconContact" icon="mdi:linkedin" />
+          </a>
+          <div className="info">
+            <h4>Linkedin :</h4>
+            <a href="https://www.linkedin.com/in/jonathan-flamme-5209b0153">
+              Jonathan Flamme
+            </a>
+          </div>
+          <div className="contact-left-icon-box">
+            <a href="https://github.com/JonathanFlamme" className="icon">
+              <Icon className="iconContact" icon="mdi:github" />
+            </a>
+            <div className="info">
+              <h4>GitHub :</h4>
+              <a href="https://github.com/JonathanFlamme">Jonathan Flamme</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

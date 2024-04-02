@@ -9,12 +9,24 @@ function about() {
       <h1 className="about-sub-heading">A propos</h1>
       <div className="about-divider" />
       <p className="about-sub-para">
-        Après 10 ans d&apos;expérience dans le domaine de l&apos;électronique,
-        ma passion pour la programmation m&apos;a conduit à me reconvertir en
-        tant que développeur Front-End Angular. Je suis motivé à l&apos;idée de
-        relever de nouveaux défis et de m&apos;épanouir dans ce secteur en
-        constante évolution.
+        En tant que développeur Front-End, je suis curieux, autonome et force de
+        proposition. Ma communication et ma capacité à travailler en équipe sont
+        des qualités importantes pour contribuer aux projets en proposant
+        également des idées et solutions.
       </p>
+      <p className="about-sub-para">
+        Actuellement, je développe un projet personnel en Fullstack qui permet
+        de partager des recettes entre cuisiniers amateurs “YummyCook”. En plus
+        d&apos;être un projet qui me tient à cœur, il me permet d&apos;innover
+        et d&apos;ajouter des fonctionnalités spécifiques en réponse aux besoins
+        et aux retours des utilisateurs.
+      </p>
+      <p className="about-sub-para">
+        Passionné par l&apos;innovation et la résolution de problèmes, je suis
+        constamment en quête d&apos;apprentissage, effectuant une veille
+        technologique régulière pour rester informé des dernières nouveautés.
+      </p>
+
       <div className="about-col">
         <div className="about-col-img">
           <img src={photo} alt="jonathan Flamme" />
@@ -29,7 +41,7 @@ function about() {
               <ul>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>TypeScript</strong>
+                  <strong>Javascript</strong>
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
@@ -41,7 +53,7 @@ function about() {
               <ul>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Docker</strong>
+                  <strong>Typescript</strong>
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
