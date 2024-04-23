@@ -9,17 +9,16 @@ function about() {
       <h1 className="about-sub-heading">A propos</h1>
       <div className="about-divider" />
       <p className="about-sub-para">
-        En tant que développeur Front-End, je suis curieux, autonome et force de
-        proposition. Ma communication et ma capacité à travailler en équipe sont
-        des qualités importantes pour contribuer aux projets en proposant
-        également des idées et solutions.
+        En tant que développeur FullStack, je suis curieux, autodidacte et force
+        de proposition. Ma communication et ma capacité à travailler en équipe
+        sont des qualités importantes pour contribuer aux projets.
       </p>
       <p className="about-sub-para">
-        Actuellement, je développe un projet personnel en Fullstack qui permet
-        de partager des recettes entre cuisiniers amateurs “YummyCook”. En plus
-        d&apos;être un projet qui me tient à cœur, il me permet d&apos;innover
-        et d&apos;ajouter des fonctionnalités spécifiques en réponse aux besoins
-        et aux retours des utilisateurs.
+        Je développe actuellement YummyCook, une plateforme de partage de
+        recettes pour cuisiniers amateurs. En plus d&apos;être un projet qui me
+        tient à cœur, il me permet d&apos;innover et d&apos;ajouter des
+        fonctionnalités spécifiques en réponse aux besoins et aux retours des
+        utilisateurs.
       </p>
       <p className="about-sub-para">
         Passionné par l&apos;innovation et la résolution de problèmes, je suis
@@ -33,7 +32,7 @@ function about() {
         </div>
 
         <div className="about-col-info">
-          <h2>Developpeur Front-End</h2>
+          <h2>Développeur Full-Stack</h2>
 
           <h4 className="soft-skill-title">Compétences :</h4>
           <div className="about-col-info-icon-col">
@@ -45,7 +44,7 @@ function about() {
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Angular</strong>
+                  <strong>React</strong>
                 </li>
               </ul>
             </div>
@@ -53,11 +52,11 @@ function about() {
               <ul>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Typescript</strong>
+                  <strong>Angular</strong>
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Git / GitHub</strong>
+                  <strong>NestJs</strong>
                 </li>
               </ul>
             </div>
@@ -69,7 +68,7 @@ function about() {
               <ul>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Autonomie</strong>
+                  <strong>Curieux</strong>
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
@@ -77,7 +76,7 @@ function about() {
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Communication</strong>
+                  <strong>Communicatif</strong>
                 </li>
               </ul>
             </div>
@@ -87,7 +86,7 @@ function about() {
               <ul>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Curiosité</strong>
+                  <strong>Autonome</strong>
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
@@ -95,7 +94,7 @@ function about() {
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Adaptabilité</strong>
+                  <strong>Flexible</strong>
                 </li>
               </ul>
             </div>

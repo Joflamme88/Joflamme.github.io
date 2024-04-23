@@ -8,7 +8,9 @@ function Acceuil() {
           Jonathan Flamme<span>.</span>
         </h1>
         <p>
-          <span className="auto-input"> Développeur Front-End Angular</span>
+          <span className="auto-input">
+            Développeur Full-Stack Angular | NestJs
+          </span>
         </p>
       </div>
     </section>
