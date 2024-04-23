@@ -42,6 +42,9 @@ function Projet({ projet }: ProjetProp) {
         {projet.button && (
           <a href={projet.button_link}>{projet.button_title}</a>
         )}
+        {projet.button_link2 && (
+          <a href={projet.button_link2}>{projet.button_title2}</a>
+        )}
       </div>
     </div>
   );

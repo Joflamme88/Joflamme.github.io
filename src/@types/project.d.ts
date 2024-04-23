@@ -14,4 +14,6 @@ export interface ProjetType {
   button?: boolean;
   button_title?: string;
   button_link?: string;
+  button_title2?: string;
+  button_link2?: string;
 }
