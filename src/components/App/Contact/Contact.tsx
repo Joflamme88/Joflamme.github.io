@@ -49,19 +49,15 @@ function Contact() {
             <Icon className="iconContact" icon="mdi:linkedin" />
           </a>
           <div className="info">
-            <h4>Linkedin :</h4>
-            <a href="https://www.linkedin.com/in/jonathan-flamme-5209b0153">
-              Jonathan Flamme
-            </a>
+            <h4>Linkedin</h4>
           </div>
-          <div className="contact-left-icon-box">
-            <a href="https://github.com/JonathanFlamme" className="icon">
-              <Icon className="iconContact" icon="mdi:github" />
-            </a>
-            <div className="info">
-              <h4>GitHub :</h4>
-              <a href="https://github.com/JonathanFlamme">Jonathan Flamme</a>
-            </div>
+        </div>
+        <div className="contact-left-icon-box">
+          <a href="https://github.com/JonathanFlamme" className="icon">
+            <Icon className="iconContact" icon="mdi:github" />
+          </a>
+          <div className="info">
+            <h4>GitHub</h4>
           </div>
         </div>
       </div>

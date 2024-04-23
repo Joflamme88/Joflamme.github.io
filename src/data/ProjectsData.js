@@ -49,7 +49,7 @@ const ProjetsData = [
       },
       {
         title: 'Techno :  ',
-        description: 'Javascript , React, NextJs',
+        description: 'Javascript , React, NextJs, Tailwind',
       },
     ],
     box_title: 'Edition Limitée',
