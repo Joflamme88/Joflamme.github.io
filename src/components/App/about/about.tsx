@@ -44,7 +44,7 @@ function about() {
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>React</strong>
+                  <strong>Git</strong>
                 </li>
               </ul>
             </div>
