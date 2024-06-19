@@ -9,7 +9,7 @@ function Acceuil() {
         </h1>
         <p>
           <span className="auto-input">
-            Développeur Full-Stack Angular | NestJs
+            Développeur Full-Stack Angular | NodeJs (NestJs)
           </span>
         </p>
       </div>

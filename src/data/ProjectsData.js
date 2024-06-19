@@ -20,7 +20,7 @@ const ProjetsData = [
       {
         title: 'Techno : ( FullStack ) ',
         description:
-          'Javascript ,TypeScript, Angular, NestJs, Docker, Nx Monorepo',
+          'Javascript ,TypeScript, Angular, NodeJs, NestJs, Docker, Nx Monorepo',
       },
     ],
     box_title: 'Yummy Cook',
@@ -89,7 +89,7 @@ const ProjetsData = [
       {
         title: 'Techno : ( FullStack ) ',
         description:
-          'Javascript ,TypeScript, Angular, NestJs, Docker, Nx Monorepo',
+          'Javascript ,TypeScript, Angular, NodeJs, NestJs, Docker, Nx Monorepo',
       },
     ],
     box_title: 'Assistance à la gestion des secours',
