@@ -45,7 +45,10 @@ const ProjetsData = [
           "Création d'un site web présentant la guilde d'un jeux vidéo",
       },
       {
-        description: "Ajout d'un formulaire de recrutement",
+        description: 'Formulaire de recrutement',
+      },
+      {
+        description: 'Connexion Oauth via BattleNet',
       },
       {
         title: 'Techno :  ',

@@ -44,7 +44,11 @@ function about() {
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>NodeJs</strong>
+                  <strong>Angular</strong>
+                </li>
+                <li>
+                  <Icon className="icon-arrow" icon="fe:arrow-up" />
+                  <strong>NestJs</strong>
                 </li>
               </ul>
             </div>
@@ -52,11 +56,15 @@ function about() {
               <ul>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>Angular</strong>
+                  <strong>Typescript</strong>
                 </li>
                 <li>
                   <Icon className="icon-arrow" icon="fe:arrow-up" />
-                  <strong>NestJs</strong>
+                  <strong>React</strong>
+                </li>
+                <li>
+                  <Icon className="icon-arrow" icon="fe:arrow-up" />
+                  <strong>NextJs</strong>
                 </li>
               </ul>
             </div>
