@@ -64,6 +64,8 @@ const ProjetsData = [
     button: true,
     button_title: 'Lien du site',
     button_link: 'https://www.editionlimitee-elune.fr/',
+    button_title2: 'Code source',
+    button_link2: 'https://github.com/JonathanFlamme/edition-limitee',
   },
   {
     id: 4,
