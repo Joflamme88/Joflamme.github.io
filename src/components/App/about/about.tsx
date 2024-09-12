@@ -9,16 +9,18 @@ function about() {
       <h1 className="about-sub-heading">A propos</h1>
       <div className="about-divider" />
       <p className="about-sub-para">
-        En tant que développeur FullStack, je suis curieux, autodidacte et force
-        de proposition. Ma communication et ma capacité à travailler en équipe
-        sont des qualités importantes pour contribuer aux projets.
+        Développeur Full Stack passionné avec 11 ans d&apos;expérience en
+        électronique et une reconversion réussie dans le développement web.
+        Rigoureux, attentif aux détails et doté d&apos;une forte capacité à
+        résoudre les problèmes.
       </p>
       <p className="about-sub-para">
-        Je développe actuellement YummyCook, une plateforme de partage de
-        recettes pour cuisiniers amateurs. En plus d&apos;être un projet qui me
-        tient à cœur, il me permet d&apos;innover et d&apos;ajouter des
-        fonctionnalités spécifiques en réponse aux besoins et aux retours des
-        utilisateurs.
+        Mes projets récents illustrent ma capacité à développer des applications
+        web innovantes et robustes, répondant aux besoins des utilisateurs. Que
+        ce soit à travers Yummy Cook, une plateforme de partage de recettes, ou
+        Édition Limitée, un outil de gestion de guilde pour les jeux vidéo,
+        chaque projet reflète ma passion pour le développement et
+        l&apos;amélioration continue basée sur les retours utilisateurs.
       </p>
       <p className="about-sub-para">
         Passionné par l&apos;innovation et la résolution de problèmes, je suis

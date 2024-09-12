@@ -12,10 +12,19 @@ const ProjetsData = [
     image: `${yummyCook}`,
     description: [
       {
-        description: 'Plateforme de partage de recettes de cuisines',
+        description:
+          'Plateforme de création et de partage de recettes de cuisines :',
       },
       {
-        description: 'Création de menu personalisé (A venir)',
+        description: '- Affichage des recettes avec pagination et filtres.',
+      },
+      {
+        description:
+          '- Gestion des comptes utilisateurs et des recettes (CRUD) via une API REST.',
+      },
+      {
+        description:
+          '- Activation des comptes par token avec création de recettes limitée avant validation.',
       },
       {
         title: 'Techno : ( FullStack ) ',
@@ -25,8 +34,7 @@ const ProjetsData = [
     ],
     box_title: 'Yummy Cook',
     box_description: [
-      'Partage de recettes entre cuisiniers amateurs',
-      'Création de menu personalisé (A venir)',
+      'Création et partage de recettes entre cuisiniers amateurs',
     ],
     link_box: 'https://github.com/JonathanFlamme/CookBook',
     button: true,
@@ -42,23 +50,32 @@ const ProjetsData = [
     description: [
       {
         description:
-          "Création d'un site web présentant la guilde d'un jeux vidéo",
+          "Développement d'un site web dédié à la gestion d'une guilde de jeu vidéo :",
       },
       {
-        description: 'Formulaire de recrutement',
+        description:
+          " - Conception de l'interface utilisateur pour présenter la guilde",
       },
       {
-        description: 'Connexion Oauth via BattleNet',
+        description:
+          " - Intégration de l'authentification OAuth et de l'API Battle.net pour sécuriser l'accès et structurer les données des joueurs dans une BDD personnalisée",
+      },
+      {
+        description:
+          ' - Suivi automatique des activités des joueurs en analysant les données récupérées',
+      },
+      {
+        description: ' - Utilisation de Google Api',
       },
       {
         title: 'Techno :  ',
-        description: 'Javascript , React, NextJs, Tailwind',
+        description:
+          'Javascript , React, NextJs, Tailwind, Prisma, PostgreSQL, Docker, OAuth, Google API, Battle.net API',
       },
     ],
     box_title: 'Edition Limitée',
     box_description: [
-      "Création d'un site web présentant la guilde d'un jeux vidéo",
-      "Ajout d'un formulaire de recrutement",
+      "Développement d'un site web dédié à la gestion d'une guilde de jeu vidéo :",
     ],
     link_box: '',
     button: true,

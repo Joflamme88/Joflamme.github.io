@@ -34,7 +34,7 @@ function Header() {
           <Link to="/">
             <img src={logo} alt="jonathan flamme" width="150px" />
           </Link>
-          <h1>J Flamme</h1>
+          <h1>J. Flamme</h1>
           <div className="header-profile-social-icons">
             <a href="https://github.com/JonathanFlamme">
               <Icon className="iconHeader" icon="mdi:github" />
