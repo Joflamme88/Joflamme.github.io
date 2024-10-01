@@ -1,5 +1,5 @@
 import othello from '../assets/othello.jpg';
-import yummyCook from '../assets/yummycook.jpg';
+import flamscookbook from '../assets/yummycook.jpg';
 import botDiscord from '../assets/botDiscord.jpg';
 import foodFlex from '../assets/foodFlex.png';
 import agsLogo from '../assets/ags_logo.jpg';
@@ -8,8 +8,8 @@ import editionLimitee from '../assets/editionlimitee.png';
 const ProjetsData = [
   {
     id: 6,
-    name: 'Yummy Cook :',
-    image: `${yummyCook}`,
+    name: "Flam's Cookbook :",
+    image: `${flamscookbook}`,
     description: [
       {
         description:
@@ -32,14 +32,14 @@ const ProjetsData = [
           'Javascript ,TypeScript, Angular, NodeJs, NestJs, Docker, Nx Monorepo',
       },
     ],
-    box_title: 'Yummy Cook',
+    box_title: "Flam's Cookbook",
     box_description: [
       'Création et partage de recettes entre cuisiniers amateurs',
     ],
     link_box: 'https://github.com/JonathanFlamme/CookBook',
     button: true,
     button_title: 'Lien du site',
-    button_link: 'https://yummy-cook-dev.netlify.app',
+    button_link: 'https://flamscookbook.netlify.app',
     button_title2: 'Code source',
     button_link2: 'https://github.com/JonathanFlamme/CookBook',
   },
