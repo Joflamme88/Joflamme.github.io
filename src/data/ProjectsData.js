@@ -185,22 +185,6 @@ const ProjetsData = [
     button_title: 'Lien du site',
     button_link: 'https://foodflex.me/',
   },
-  // {
-  //   id: 5,
-  //   name: 'FoodFlex - Back :',
-  //   image: `${foodFlex}`,
-  //   description: [
-  //     {
-  //       description: 'NodeJs - Espress - Sequelize',
-  //     },
-  //   ],
-  //   box_title: 'Foodflex - Back',
-  //   box_description: [
-  //     'Gestion de recette de cuisine sur un planning à la semaine',
-  //   ],
-  //   link_box: 'https://github.com/JonathanFlamme/projet-foodflex-back',
-  //   button: false,
-  // },
 ];
 
 export default ProjetsData;
